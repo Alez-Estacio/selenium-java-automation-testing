@@ -1,0 +1,11 @@
+{
+    "liveServer.settings.port": 5501,
+    "java.configuration.updateBuildConfiguration": "automatic",
+    "files.exclude": {
+        "**/surefire-reports": true,
+        "**/test-output": true,
+        "**/bin": true,
+        "**/logs": true
+    },
+    "java.compile.nullAnalysis.mode": "automatic"
+}

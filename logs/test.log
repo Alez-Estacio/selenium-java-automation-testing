@@ -1,0 +1,275 @@
+05/24/2025 19:53:39.910 [main] INFO  PurchaseOrderTest - ========== setUp ===========
+05/24/2025 19:53:39.922 [main] INFO  PurchaseOrderTest - ========== Starting test cases execution ===========
+05/24/2025 19:54:02.930 [main] INFO  PurchaseOrderTest - Open Browser and Navigate to URL
+05/24/2025 19:54:02.941 [main] INFO  TestLogger - Open Browser and Navigate to URL(Extent report)
+05/24/2025 19:54:02.979 [main] INFO  PurchaseOrderTest - Navigated to URL: https://www.saucedemo.com/
+05/24/2025 19:54:04.510 [main] INFO  TestLogger - Test suite started: Surefire test
+05/24/2025 19:54:04.673 [main] INFO  TestLogger - Test started: shouldAnswerWithTrue
+05/24/2025 19:54:04.706 [main] INFO  TestLogger - PASS: Test passed: shouldAnswerWithTrue
+05/24/2025 19:54:04.719 [main] INFO  TestLogger - Test started: userLogin
+05/24/2025 19:54:04.883 [main] INFO  TestLogger - Enter credentials(Extent report)
+05/24/2025 19:54:05.092 [main] INFO  TestLogger - Screenshot capturado y a�adido al reporte: Antes de hacer clic en Login(2)
+05/24/2025 19:54:06.966 [main] INFO  TestLogger - PASS: Test passed: userLogin
+05/24/2025 19:54:06.969 [main] INFO  TestLogger - Test started: preOrden
+05/24/2025 19:54:07.385 [main] INFO  TestLogger - click Add to cart(Extent report)
+05/24/2025 19:54:08.574 [main] INFO  TestLogger - PASS: Test passed: preOrden
+05/24/2025 19:54:08.576 [main] INFO  TestLogger - Test started: checkOut
+05/24/2025 19:54:08.590 [main] INFO  TestLogger - click Checkout(Extent report)
+05/24/2025 19:54:08.797 [main] ERROR TestLogger - FAIL: Test failed: checkOut
+05/24/2025 19:54:08.803 [main] ERROR TestLogger - FAIL: Exception: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#checkout"}
+  (Session info: chrome=136.0.7103.114)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.22.0', revision: 'c5f3146703*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.27'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [ca792474f3fc91cbc34150800caa67c9, findElement {value=checkout, using=id}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 136.0.7103.114, chrome: {chromedriverVersion: 136.0.7103.113 (76fa3c17824..., userDataDir: C:\Users\MONTESJ\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59545}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59545/devtoo..., se:cdpVersion: 136.0.7103.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ca792474f3fc91cbc34150800caa67c9
+05/24/2025 19:54:09.521 [main] INFO  TestLogger - Test suite finished: Surefire test
+05/24/2025 19:54:12.032 [main] INFO  PurchaseOrderTest - ========== tearDown ===========
+05/24/2025 21:29:09.897 [main] INFO  TestLogger - Test suite started: Surefire test
+05/24/2025 21:29:10.013 [main] INFO  TestLogger - Test started: shouldAnswerWithTrue
+05/24/2025 21:29:10.049 [main] INFO  TestLogger - PASS: Test passed: shouldAnswerWithTrue
+05/24/2025 21:29:10.073 [main] INFO  FormTest - ========== Setting up test ===========
+05/24/2025 21:29:27.150 [main] INFO  FormTest - Navigated to URL: http://64.227.54.255/Softesting/Frontend/Caso1.html
+05/24/2025 21:29:27.150 [main] INFO  TestLogger - Browser opened and navigated to URL
+05/24/2025 21:29:27.155 [main] INFO  TestLogger - Test started: testCompleteFormSubmission
+05/24/2025 21:29:37.697 [main] ERROR TestLogger - FAIL: Test failed: testCompleteFormSubmission
+05/24/2025 21:29:37.702 [main] ERROR TestLogger - FAIL: Exception: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.id: email' (tried for 10 second(s) with 500 milliseconds interval)
+05/24/2025 21:29:38.691 [main] INFO  FormTest - ========== Test finished ===========
+05/24/2025 21:29:38.782 [main] INFO  TestLogger - Test suite finished: Surefire test
+05/24/2025 21:36:29.924 [main] INFO  TestLogger - Test suite started: Surefire test
+05/24/2025 21:36:30.061 [main] INFO  TestLogger - Test started: shouldAnswerWithTrue
+05/24/2025 21:36:30.098 [main] INFO  TestLogger - PASS: Test passed: shouldAnswerWithTrue
+05/24/2025 21:36:30.115 [main] INFO  FormTest - ========== Setting up test ===========
+05/24/2025 21:36:46.559 [main] INFO  FormTest - Navigated to URL: http://64.227.54.255/Softesting/Frontend/Caso1.html
+05/24/2025 21:36:46.562 [main] INFO  TestLogger - Browser opened and navigated to URL
+05/24/2025 21:36:46.570 [main] INFO  TestLogger - Test started: testCompleteFormSubmission
+05/24/2025 21:36:57.631 [main] ERROR TestLogger - FAIL: Test failed: testCompleteFormSubmission
+05/24/2025 21:36:57.635 [main] ERROR TestLogger - FAIL: Exception: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.id: email' (tried for 10 second(s) with 500 milliseconds interval)
+05/24/2025 21:36:59.975 [main] INFO  FormTest - ========== Test finished ===========
+05/24/2025 21:37:00.073 [main] INFO  TestLogger - Test suite finished: Surefire test
+05/24/2025 21:37:36.581 [main] INFO  TestLogger - Test suite started: Surefire test
+05/24/2025 21:37:36.742 [main] INFO  TestLogger - Test started: shouldAnswerWithTrue
+05/24/2025 21:37:36.777 [main] INFO  TestLogger - PASS: Test passed: shouldAnswerWithTrue
+05/24/2025 21:37:36.816 [main] INFO  FormTest - ========== Setting up test ===========
+05/24/2025 21:37:52.571 [main] INFO  FormTest - Navigated to URL: http://64.227.54.255/Softesting/Frontend/Caso1.html
+05/24/2025 21:37:52.572 [main] INFO  TestLogger - Browser opened and navigated to URL
+05/24/2025 21:37:52.576 [main] INFO  TestLogger - Test started: testCompleteFormSubmission
+05/24/2025 21:38:03.913 [main] ERROR TestLogger - FAIL: Test failed: testCompleteFormSubmission
+05/24/2025 21:38:03.925 [main] ERROR TestLogger - FAIL: Exception: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.id: email' (tried for 10 second(s) with 500 milliseconds interval)
+05/24/2025 21:38:05.058 [main] INFO  FormTest - ========== Test finished ===========
+05/24/2025 21:38:05.159 [main] INFO  TestLogger - Test suite finished: Surefire test
+05/24/2025 21:43:41.456 [main] INFO  TestLogger - Test suite started: Surefire test
+05/24/2025 21:43:41.588 [main] INFO  TestLogger - Test started: shouldAnswerWithTrue
+05/24/2025 21:43:41.615 [main] INFO  TestLogger - PASS: Test passed: shouldAnswerWithTrue
+05/24/2025 21:43:41.633 [main] INFO  FormTest - ========== Setting up test ===========
+05/24/2025 21:43:52.747 [main] INFO  FormTest - Navigated to URL: http://64.227.54.255/Softesting/Frontend/Caso1.html
+05/24/2025 21:43:52.748 [main] INFO  TestLogger - Browser opened and navigated to URL
+05/24/2025 21:43:52.761 [main] INFO  TestLogger - Test started: testCompleteFormSubmission
+05/24/2025 21:44:07.513 [main] ERROR TestLogger - FAIL: Test failed: testCompleteFormSubmission
+05/24/2025 21:44:07.515 [main] ERROR TestLogger - FAIL: Exception: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.id: barrio' (tried for 10 second(s) with 500 milliseconds interval)
+05/24/2025 21:44:14.173 [main] INFO  FormTest - ========== Test finished ===========
+05/24/2025 21:44:14.325 [main] INFO  TestLogger - Test suite finished: Surefire test
+05/24/2025 21:46:30.227 [main] INFO  TestLogger - Test suite started: Surefire test
+05/24/2025 21:46:30.324 [main] INFO  TestLogger - Test started: shouldAnswerWithTrue
+05/24/2025 21:46:30.351 [main] INFO  TestLogger - PASS: Test passed: shouldAnswerWithTrue
+05/24/2025 21:46:30.391 [main] INFO  FormTest - ========== Setting up test ===========
+05/24/2025 21:46:44.248 [main] INFO  FormTest - Navigated to URL: http://64.227.54.255/Softesting/Frontend/Caso1.html
+05/24/2025 21:46:44.249 [main] INFO  TestLogger - Browser opened and navigated to URL
+05/24/2025 21:46:44.254 [main] INFO  TestLogger - Test started: testCompleteFormSubmission
+05/24/2025 21:46:45.343 [main] ERROR TestLogger - FAIL: Test failed: testCompleteFormSubmission
+05/24/2025 21:46:45.344 [main] ERROR TestLogger - FAIL: Exception: org.openqa.selenium.InvalidElementStateException: invalid element state
+  (Session info: chrome=136.0.7103.114)
+Build info: version: '4.22.0', revision: 'c5f3146703*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c15c4b11637b6c79a4ca5dce2a144b23, clearElement {id=f.7228C5802CC46F1AD6674219BF3DB5CB.d.057C5D9BB741EAC7F8EF34EEC1F16BD9.e.13}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 136.0.7103.114, chrome: {chromedriverVersion: 136.0.7103.113 (76fa3c17824..., userDataDir: C:\Users\MONTESJ\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50655}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50655/devtoo..., se:cdpVersion: 136.0.7103.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (c15c4b11637b6c79a4ca5dce2a144b23)] -> css selector: #grupo__barrio > label]
+Session ID: c15c4b11637b6c79a4ca5dce2a144b23
+05/24/2025 21:46:46.164 [main] INFO  FormTest - ========== Test finished ===========
+05/24/2025 21:46:46.289 [main] INFO  TestLogger - Test suite finished: Surefire test
+05/24/2025 21:47:42.648 [main] INFO  TestLogger - Test suite started: Surefire test
+05/24/2025 21:47:42.799 [main] INFO  TestLogger - Test started: shouldAnswerWithTrue
+05/24/2025 21:47:42.836 [main] INFO  TestLogger - PASS: Test passed: shouldAnswerWithTrue
+05/24/2025 21:47:42.867 [main] INFO  FormTest - ========== Setting up test ===========
+05/24/2025 21:47:53.850 [main] INFO  FormTest - Navigated to URL: http://64.227.54.255/Softesting/Frontend/Caso1.html
+05/24/2025 21:47:53.851 [main] INFO  TestLogger - Browser opened and navigated to URL
+05/24/2025 21:47:53.858 [main] INFO  TestLogger - Test started: testCompleteFormSubmission
+05/24/2025 21:47:56.616 [main] ERROR TestLogger - FAIL: Test failed: testCompleteFormSubmission
+05/24/2025 21:47:56.618 [main] ERROR TestLogger - FAIL: Exception: org.openqa.selenium.InvalidElementStateException: invalid element state
+  (Session info: chrome=136.0.7103.114)
+Build info: version: '4.22.0', revision: 'c5f3146703*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [a355c4ba2f4c89b19c66bfc3f3577876, clearElement {id=f.B40630CE241BB5671B0500FB9EC08094.d.B281D277D21D729BA233F8DDB53A8F58.e.11}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 136.0.7103.114, chrome: {chromedriverVersion: 136.0.7103.113 (76fa3c17824..., userDataDir: C:\Users\MONTESJ\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50761}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50761/devtoo..., se:cdpVersion: 136.0.7103.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (a355c4ba2f4c89b19c66bfc3f3577876)] -> css selector: #grupo__barrio > label]
+Session ID: a355c4ba2f4c89b19c66bfc3f3577876
+05/24/2025 21:47:57.820 [main] INFO  FormTest - ========== Test finished ===========
+05/24/2025 21:47:57.932 [main] INFO  TestLogger - Test suite finished: Surefire test
+05/24/2025 21:49:59.225 [main] INFO  TestLogger - Test suite started: Surefire test
+05/24/2025 21:49:59.344 [main] INFO  TestLogger - Test started: shouldAnswerWithTrue
+05/24/2025 21:49:59.393 [main] INFO  TestLogger - PASS: Test passed: shouldAnswerWithTrue
+05/24/2025 21:49:59.436 [main] INFO  FormTest - ========== Setting up test ===========
+05/24/2025 21:50:21.049 [main] INFO  FormTest - Navigated to URL: http://64.227.54.255/Softesting/Frontend/Caso1.html
+05/24/2025 21:50:21.051 [main] INFO  TestLogger - Browser opened and navigated to URL
+05/24/2025 21:50:21.054 [main] INFO  TestLogger - Test started: testCompleteFormSubmission
+05/24/2025 21:50:32.585 [main] ERROR TestLogger - FAIL: Test failed: testCompleteFormSubmission
+05/24/2025 21:50:32.586 [main] ERROR TestLogger - FAIL: Exception: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.id: asunto' (tried for 10 second(s) with 500 milliseconds interval)
+05/24/2025 21:50:33.567 [main] INFO  FormTest - ========== Test finished ===========
+05/24/2025 21:50:33.641 [main] INFO  TestLogger - Test suite finished: Surefire test
+05/24/2025 21:51:47.424 [main] INFO  TestLogger - Test suite started: Surefire test
+05/24/2025 21:51:47.531 [main] INFO  TestLogger - Test started: shouldAnswerWithTrue
+05/24/2025 21:51:47.561 [main] INFO  TestLogger - PASS: Test passed: shouldAnswerWithTrue
+05/24/2025 21:51:47.579 [main] INFO  FormTest - ========== Setting up test ===========
+05/24/2025 21:51:57.575 [main] INFO  FormTest - Navigated to URL: http://64.227.54.255/Softesting/Frontend/Caso1.html
+05/24/2025 21:51:57.576 [main] INFO  TestLogger - Browser opened and navigated to URL
+05/24/2025 21:51:57.610 [main] INFO  TestLogger - Test started: testCompleteFormSubmission
+05/24/2025 21:52:10.063 [main] ERROR TestLogger - FAIL: Test failed: testCompleteFormSubmission
+05/24/2025 21:52:10.063 [main] ERROR TestLogger - FAIL: Exception: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.id: asunto' (tried for 10 second(s) with 500 milliseconds interval)
+05/24/2025 21:52:11.524 [main] INFO  FormTest - ========== Test finished ===========
+05/24/2025 21:52:11.707 [main] INFO  TestLogger - Test suite finished: Surefire test
+05/24/2025 21:53:39.327 [main] INFO  TestLogger - Test suite started: Surefire test
+05/24/2025 21:53:39.488 [main] INFO  TestLogger - Test started: shouldAnswerWithTrue
+05/24/2025 21:53:39.549 [main] INFO  TestLogger - PASS: Test passed: shouldAnswerWithTrue
+05/24/2025 21:53:39.588 [main] INFO  FormTest - ========== Setting up test ===========
+05/24/2025 21:53:51.473 [main] INFO  FormTest - Navigated to URL: http://64.227.54.255/Softesting/Frontend/Caso1.html
+05/24/2025 21:53:51.474 [main] INFO  TestLogger - Browser opened and navigated to URL
+05/24/2025 21:53:51.477 [main] INFO  TestLogger - Test started: testCompleteFormSubmission
+05/24/2025 21:54:03.482 [main] ERROR TestLogger - FAIL: Test failed: testCompleteFormSubmission
+05/24/2025 21:54:03.483 [main] ERROR TestLogger - FAIL: Exception: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.name: mensaje' (tried for 10 second(s) with 500 milliseconds interval)
+05/24/2025 21:54:06.622 [main] INFO  FormTest - ========== Test finished ===========
+05/24/2025 21:54:06.679 [main] INFO  TestLogger - Test suite finished: Surefire test
+05/24/2025 21:55:15.512 [main] INFO  TestLogger - Test suite started: Surefire test
+05/24/2025 21:55:15.618 [main] INFO  TestLogger - Test started: shouldAnswerWithTrue
+05/24/2025 21:55:15.648 [main] INFO  TestLogger - PASS: Test passed: shouldAnswerWithTrue
+05/24/2025 21:55:15.690 [main] INFO  FormTest - ========== Setting up test ===========
+05/24/2025 21:55:27.765 [main] INFO  FormTest - Navigated to URL: http://64.227.54.255/Softesting/Frontend/Caso1.html
+05/24/2025 21:55:27.766 [main] INFO  TestLogger - Browser opened and navigated to URL
+05/24/2025 21:55:27.770 [main] INFO  TestLogger - Test started: testCompleteFormSubmission
+05/24/2025 21:55:39.913 [main] ERROR TestLogger - FAIL: Test failed: testCompleteFormSubmission
+05/24/2025 21:55:39.914 [main] ERROR TestLogger - FAIL: Exception: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.id: Enviar' (tried for 10 second(s) with 500 milliseconds interval)
+05/24/2025 21:55:41.001 [main] INFO  FormTest - ========== Test finished ===========
+05/24/2025 21:55:41.138 [main] INFO  TestLogger - Test suite finished: Surefire test
+05/24/2025 21:56:34.234 [main] INFO  TestLogger - Test suite started: Surefire test
+05/24/2025 21:56:34.330 [main] INFO  TestLogger - Test started: shouldAnswerWithTrue
+05/24/2025 21:56:34.375 [main] INFO  TestLogger - PASS: Test passed: shouldAnswerWithTrue
+05/24/2025 21:56:34.414 [main] INFO  FormTest - ========== Setting up test ===========
+05/24/2025 21:56:49.262 [main] INFO  FormTest - Navigated to URL: http://64.227.54.255/Softesting/Frontend/Caso1.html
+05/24/2025 21:56:49.263 [main] INFO  TestLogger - Browser opened and navigated to URL
+05/24/2025 21:56:49.266 [main] INFO  TestLogger - Test started: testCompleteFormSubmission
+05/24/2025 21:57:01.626 [main] ERROR TestLogger - FAIL: Test failed: testCompleteFormSubmission
+05/24/2025 21:57:01.627 [main] ERROR TestLogger - FAIL: Exception: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.id: Enviar' (tried for 10 second(s) with 500 milliseconds interval)
+05/24/2025 21:57:02.965 [main] INFO  FormTest - ========== Test finished ===========
+05/24/2025 21:57:03.173 [main] INFO  TestLogger - Test suite finished: Surefire test
+05/24/2025 22:00:31.424 [main] INFO  TestLogger - Test suite started: Surefire test
+05/24/2025 22:00:31.553 [main] INFO  TestLogger - Test started: shouldAnswerWithTrue
+05/24/2025 22:00:31.587 [main] INFO  TestLogger - PASS: Test passed: shouldAnswerWithTrue
+05/24/2025 22:00:31.604 [main] INFO  FormTest - ========== Setting up test ===========
+05/24/2025 22:00:44.292 [main] INFO  FormTest - Navigated to URL: http://64.227.54.255/Softesting/Frontend/Caso1.html
+05/24/2025 22:00:44.293 [main] INFO  TestLogger - Browser opened and navigated to URL
+05/24/2025 22:00:44.297 [main] INFO  TestLogger - Test started: testCompleteFormSubmission
+05/24/2025 22:00:49.396 [main] ERROR TestLogger - FAIL: Test failed: testCompleteFormSubmission
+05/24/2025 22:00:49.397 [main] ERROR TestLogger - FAIL: Exception: java.lang.AssertionError: El formulario no se envió correctamente expected [true] but found [false]
+05/24/2025 22:00:52.024 [main] INFO  FormTest - ========== Test finished ===========
+05/24/2025 22:00:52.193 [main] INFO  TestLogger - Test suite finished: Surefire test
+05/24/2025 22:02:18.947 [main] INFO  TestLogger - Test suite started: Surefire test
+05/24/2025 22:02:19.081 [main] INFO  TestLogger - Test started: shouldAnswerWithTrue
+05/24/2025 22:02:19.123 [main] INFO  TestLogger - PASS: Test passed: shouldAnswerWithTrue
+05/24/2025 22:02:19.142 [main] INFO  FormTest - ========== Setting up test ===========
+05/24/2025 22:02:31.012 [main] INFO  FormTest - Navigated to URL: http://64.227.54.255/Softesting/Frontend/Caso1.html
+05/24/2025 22:02:31.013 [main] INFO  TestLogger - Browser opened and navigated to URL
+05/24/2025 22:02:31.016 [main] INFO  TestLogger - Test started: testCompleteFormSubmission
+05/24/2025 22:02:33.614 [main] ERROR TestLogger - FAIL: Test failed: testCompleteFormSubmission
+05/24/2025 22:02:33.616 [main] ERROR TestLogger - FAIL: Exception: java.lang.AssertionError: UPPPPS ALGO HA FALLADO :( expected [true] but found [false]
+05/24/2025 22:02:34.588 [main] INFO  FormTest - ========== Test finished ===========
+05/24/2025 22:02:34.707 [main] INFO  TestLogger - Test suite finished: Surefire test
+05/24/2025 22:18:23.496 [main] INFO  TestLogger - Test suite started: Surefire test
+05/24/2025 22:18:23.663 [main] INFO  TestLogger - Test started: shouldAnswerWithTrue
+05/24/2025 22:18:23.707 [main] INFO  TestLogger - PASS: Test passed: shouldAnswerWithTrue
+05/24/2025 22:18:23.725 [main] INFO  FormTest - ========== Setting up test ===========
+05/24/2025 22:18:36.395 [main] INFO  FormTest - Navigated to URL: http://64.227.54.255/Softesting/Frontend/Caso1.html
+05/24/2025 22:18:36.397 [main] INFO  TestLogger - Browser opened and navigated to URL
+05/24/2025 22:18:36.409 [main] INFO  TestLogger - Test started: testCompleteFormSubmission
+05/24/2025 22:18:39.121 [main] ERROR TestLogger - FAIL: Test failed: testCompleteFormSubmission
+05/24/2025 22:18:39.124 [main] ERROR TestLogger - FAIL: Exception: java.lang.AssertionError: UPPPPS ALGO HA FALLADO :( expected [true] but found [false]
+05/24/2025 22:18:40.773 [main] INFO  FormTest - ========== Test finished ===========
+05/24/2025 22:18:40.842 [main] INFO  TestLogger - Test suite finished: Surefire test
+05/24/2025 22:19:56.749 [main] INFO  TestLogger - Test suite started: Surefire test
+05/24/2025 22:19:56.888 [main] INFO  TestLogger - Test started: shouldAnswerWithTrue
+05/24/2025 22:19:56.922 [main] INFO  TestLogger - PASS: Test passed: shouldAnswerWithTrue
+05/24/2025 22:19:56.941 [main] INFO  FormTest - ========== Setting up test ===========
+05/24/2025 22:20:09.829 [main] INFO  FormTest - Navigated to URL: http://64.227.54.255/Softesting/Frontend/Caso1.html
+05/24/2025 22:20:09.831 [main] INFO  TestLogger - Browser opened and navigated to URL
+05/24/2025 22:20:09.844 [main] INFO  TestLogger - Test started: testCompleteFormSubmission
+05/24/2025 22:20:12.082 [main] ERROR TestLogger - FAIL: Test failed: testCompleteFormSubmission
+05/24/2025 22:20:12.086 [main] ERROR TestLogger - FAIL: Exception: org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : UPPPPS ALGO HA FALLADO :(}
+  (Session info: chrome=136.0.7103.114): UPPPPS ALGO HA FALLADO :(
+Build info: version: '4.22.0', revision: 'c5f3146703*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [097e92351e086cfdcb2f8a9276e627f0, findElement {value=#formulario > div:nth-child(7) > button, using=css selector}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 136.0.7103.114, chrome: {chromedriverVersion: 136.0.7103.113 (76fa3c17824..., userDataDir: C:\Users\MONTESJ\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53223}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53223/devtoo..., se:cdpVersion: 136.0.7103.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 097e92351e086cfdcb2f8a9276e627f0
+05/24/2025 22:20:14.346 [main] INFO  FormTest - ========== Test finished ===========
+05/24/2025 22:20:14.413 [main] INFO  TestLogger - Test suite finished: Surefire test
+05/24/2025 22:25:28.342 [main] INFO  TestLogger - Test suite started: Surefire test
+05/24/2025 22:25:28.523 [main] INFO  TestLogger - Test started: shouldAnswerWithTrue
+05/24/2025 22:25:28.569 [main] INFO  TestLogger - PASS: Test passed: shouldAnswerWithTrue
+05/24/2025 22:25:28.603 [main] INFO  FormTest - ========== Setting up test ===========
+05/24/2025 22:25:39.309 [main] INFO  FormTest - Navigated to URL: http://64.227.54.255/Softesting/Frontend/Caso1.html
+05/24/2025 22:25:39.310 [main] INFO  TestLogger - Browser opened and navigated to URL
+05/24/2025 22:25:39.314 [main] INFO  TestLogger - Test started: testCompleteFormSubmission
+05/24/2025 22:25:41.835 [main] INFO  FormTest - Mensaje de alerta recibido: UPPPPS ALGO HA FALLADO :(
+05/24/2025 22:25:42.375 [main] INFO  TestLogger - PASS: Test passed: testCompleteFormSubmission
+05/24/2025 22:25:43.797 [main] INFO  FormTest - ========== Test finished ===========
+05/24/2025 22:25:43.908 [main] INFO  TestLogger - Test suite finished: Surefire test
+05/24/2025 22:27:10.655 [main] INFO  TestLogger - Test suite started: Surefire test
+05/24/2025 22:27:10.769 [main] INFO  TestLogger - Test started: shouldAnswerWithTrue
+05/24/2025 22:27:10.796 [main] INFO  TestLogger - PASS: Test passed: shouldAnswerWithTrue
+05/24/2025 22:27:10.820 [main] INFO  FormTest - ========== Setting up test ===========
+05/24/2025 22:27:25.146 [main] INFO  FormTest - Navigated to URL: http://64.227.54.255/Softesting/Frontend/Caso1.html
+05/24/2025 22:27:25.147 [main] INFO  TestLogger - Browser opened and navigated to URL
+05/24/2025 22:27:25.158 [main] INFO  TestLogger - Test started: testCompleteFormSubmission
+05/24/2025 22:27:27.390 [main] INFO  FormTest - Mensaje de alerta recibido: UPPPPS ALGO HA FALLADO :(
+05/24/2025 22:27:27.934 [main] INFO  TestLogger - PASS: Test passed: testCompleteFormSubmission
+05/24/2025 22:27:29.618 [main] INFO  FormTest - ========== Test finished ===========
+05/24/2025 22:27:29.686 [main] INFO  TestLogger - Test suite finished: Surefire test
+05/24/2025 22:30:53.767 [main] INFO  TestLogger - Test suite started: Surefire test
+05/24/2025 22:30:53.867 [main] INFO  FormTest - ========== Setting up test ===========
+05/24/2025 22:31:07.660 [main] INFO  FormTest - Navigated to URL: http://64.227.54.255/Softesting/Frontend/Caso1.html
+05/24/2025 22:31:07.661 [main] INFO  TestLogger - Browser opened and navigated to URL
+05/24/2025 22:31:07.672 [main] INFO  TestLogger - Test started: testCompleteFormSubmission
+05/24/2025 22:31:10.136 [main] INFO  FormTest - Mensaje de alerta recibido: UPPPPS ALGO HA FALLADO :(
+05/24/2025 22:31:10.722 [main] INFO  TestLogger - PASS: Test passed: testCompleteFormSubmission
+05/24/2025 22:31:11.670 [main] INFO  FormTest - ========== Test finished ===========
+05/24/2025 22:31:11.739 [main] INFO  TestLogger - Test suite finished: Surefire test
+05/24/2025 22:51:46.264 [main] INFO  TestLogger - Test suite started: Surefire test
+05/24/2025 22:51:46.376 [main] INFO  FormTest - ========== Setting up test ===========
+05/24/2025 22:52:00.398 [main] INFO  FormTest - Navigated to URL: http://64.227.54.255/Softesting/Frontend/Caso1.html
+05/24/2025 22:52:00.398 [main] INFO  TestLogger - Browser opened and navigated to URL
+05/24/2025 22:52:00.410 [main] INFO  TestLogger - Test started: testCompleteFormSubmission
+05/24/2025 22:52:02.823 [main] INFO  FormTest - Mensaje de alerta recibido: UPPPPS ALGO HA FALLADO :(
+05/24/2025 22:52:03.286 [main] INFO  TestLogger - PASS: Test passed: testCompleteFormSubmission
+05/24/2025 22:52:04.646 [main] INFO  FormTest - ========== Test finished ===========
+05/24/2025 22:52:04.698 [main] INFO  TestLogger - Test suite finished: Surefire test
+05/24/2025 22:59:43.582 [main] INFO  TestLogger - Test suite started: Surefire test
+05/24/2025 22:59:43.699 [main] INFO  FormTest - ========== Setting up test ===========
+05/24/2025 22:59:56.832 [main] INFO  FormTest - Navigated to URL: http://64.227.54.255/Softesting/Frontend/Caso1.html
+05/24/2025 22:59:56.834 [main] INFO  TestLogger - Browser opened and navigated to URL
+05/24/2025 22:59:56.905 [main] INFO  TestLogger - Test started: testCompleteFormSubmission
+05/24/2025 22:59:59.567 [main] INFO  FormTest - Mensaje de alerta recibido: UPPPPS ALGO HA FALLADO :(
+05/24/2025 23:00:00.134 [main] INFO  TestLogger - PASS: Test passed: testCompleteFormSubmission
+05/24/2025 23:00:01.430 [main] INFO  FormTest - ========== Test finished ===========
+05/24/2025 23:00:01.620 [main] INFO  TestLogger - Test suite finished: Surefire test
+05/24/2025 23:00:11.807 [main] INFO  TestLogger - Test suite started: Surefire test
+05/24/2025 23:00:11.871 [main] INFO  FormTest - ========== Setting up test ===========
+05/24/2025 23:00:23.513 [main] INFO  FormTest - Navigated to URL: http://64.227.54.255/Softesting/Frontend/Caso1.html
+05/24/2025 23:00:23.514 [main] INFO  TestLogger - Browser opened and navigated to URL
+05/24/2025 23:00:23.543 [main] INFO  TestLogger - Test started: testCompleteFormSubmission
+05/24/2025 23:00:27.358 [main] INFO  FormTest - Mensaje de alerta recibido: UPPPPS ALGO HA FALLADO :(
+05/24/2025 23:00:27.848 [main] INFO  TestLogger - PASS: Test passed: testCompleteFormSubmission
+05/24/2025 23:00:29.933 [main] INFO  FormTest - ========== Test finished ===========
+05/24/2025 23:00:29.984 [main] INFO  TestLogger - Test suite finished: Surefire test
