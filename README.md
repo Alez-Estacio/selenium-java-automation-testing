@@ -279,5 +279,6 @@ This framework is designed to support maintainable, traceable, and scalable UI t
 
 ## Author
 
-**Alezander Estacio Rodriguez**
+**Alezander Estacio**
+
 QA Automation Engineer
